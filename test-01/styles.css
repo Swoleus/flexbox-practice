@@ -46,6 +46,7 @@
 .photo-grid-container {
     display: flex;
     justify-content: center;
+   /* border: 1px solid blue; */ /* For visualising containers */
 }
 
 .photo-grid {
@@ -53,6 +54,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   /* border: 1px solid blue; */ /* For visualising containers */
 }
 
 .photo-grid-item {
